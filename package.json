@@ -1,0 +1,75 @@
+{
+  "project": {
+    "name": "Portefeuille Professionnel",
+    "author": "Yacine HAMANI",
+    "version": "1.0.0",
+    "description": "Un portefeuille web moderne et professionnel créé avec HTML5 et CSS3",
+    "created": "2026-01-09",
+    "lastUpdated": "2026-01-09"
+  },
+  "structure": {
+    "root": {
+      "index.html": "Page principale du portefeuille",
+      "README.md": "Documentation complète du projet",
+      "package.json": "Configuration du projet"
+    },
+    "assets": {
+      "css": {
+        "styles.css": "Feuille de styles principale avec variables CSS"
+      },
+      "images": {
+        "profile": {
+          "profile.svg": "Photo de profil SVG",
+          "profile.jpg": "Photo de profil JPG (alternative)"
+        },
+        "projects": {
+          "projet-ecommerce.svg": "Image du projet e-commerce",
+          "projet-productivite.svg": "Image du projet productivité",
+          "projet-agence.svg": "Image du projet agence créative",
+          "projet-saas.svg": "Image du projet SaaS",
+          "projet-blog.svg": "Image du projet blog",
+          "projet-mobile.svg": "Image du projet application mobile"
+        }
+      }
+    },
+    "pages": {
+      "description": "Dossier pour les pages additionnelles"
+    }
+  },
+  "sections": {
+    "navigation": "Barre de navigation avec logo et liens",
+    "hero": "Section d'accueil avec CTA et statistiques",
+    "about": "À Propos avec photo et compétences",
+    "projects": "Galerie de 6 projets",
+    "contact": "Formulaire de contact et infos",
+    "footer": "Pied de page avec liens sociaux"
+  },
+  "features": [
+    "Navigation inline (flexbox)",
+    "Responsive design (desktop, tablette, mobile)",
+    "Design moderne avec gradients",
+    "Animations fluides",
+    "Barres de compétences animées",
+    "Formulaire de contact",
+    "Galerie de projets interactive",
+    "Code commenté en français",
+    "CSS variables pour personnalisation facile"
+  ],
+  "colors": {
+    "primary": "#667eea",
+    "secondary": "#764ba2",
+    "accent": "#3498db",
+    "success": "#27ae60",
+    "dark": "#1a252f",
+    "light": "#f8f9fa"
+  },
+  "fonts": {
+    "main": "Roboto",
+    "heading": "Poppins"
+  },
+  "responsive": {
+    "desktop": "1200px+",
+    "tablet": "768px - 1199px",
+    "mobile": "480px - 767px"
+  }
+}
