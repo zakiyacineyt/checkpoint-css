@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Encodage des caractères UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Viewport pour la responsivité -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description de la page -->
+    <meta name="description" content="Mon portefeuille professionnel - Développeur Web créatif">
+    <!-- Titre de la page -->
+    <title>Mon Portefeuille Professionnel</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts - Roboto et Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Conteneur principal -->
+    <div class="container">
+        <!-- BARRE DE NAVIGATION -->
+        <nav class="navbar">
+            <!-- Logo/Titre du portefeuille -->
+            <div class="navbar-logo">
+                <h1>Mon Portefeuille</h1>
+            </div>
+            <!-- Liste de navigation inline -->
+            <ul class="navbar-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#a-propos" class="nav-link">À Propos</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- SECTION HÉRO -->
+        <section id="accueil" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Créateur de Solutions Web Modernes</h1>
+                    <p class="hero-subtitle">Développeur Web Full-Stack</p>
+                    <p class="hero-description">Je transforme vos idées en applications web exceptionnelles, performantes et esthétiques.</p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="cta-button cta-primary">Découvrir mes projets</a>
+                        <a href="#contact" class="cta-button cta-secondary">Contactez-moi</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <span class="stat-number">50+</span>
+                        <p class="stat-label">Projets complétés</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">30+</span>
+                        <p class="stat-label">Clients satisfaits</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">5+</span>
+                        <p class="stat-label">Ans d'expérience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION À PROPOS -->
+        <section id="a-propos" class="about">
+            <h2 class="section-title">À Propos de Moi</h2>
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-subtitle">Qui suis-je ?</h3>
+                        <p>Je suis un développeur web passionné avec plus de 5 ans d'expérience dans la création de solutions numériques innovantes. Spécialisé en HTML, CSS, JavaScript et frameworks modernes, je crée des expériences utilisateur exceptionnelles.</p>
+                        <p>Mon objectif est de transformer vos idées en applications web performantes, sécurisées et esthétiques. Je crois en l'importance de la qualité, de la performance et de l'accessibilité.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <span class="feature-icon">💡</span>
+                                <p>Solutions innovantes</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">⚡</span>
+                                <p>Performance optimale</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🎨</span>
+                                <p>Design moderne</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">📱</span>
+                                <p>Responsive</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3 class="skills-title">Compétences Techniques</h3>
+                        
+                        <div class="skill-category">
+                            <h4>Front-End</h4>
+                            <div class="skill-bar-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">HTML5 & CSS3</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Responsive Design</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Back-End</h4>
+                            <div class="skill-bar-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">PHP & MySQL</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Outils & Frameworks</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">Webpack</span>
+                                <span class="skill-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PROJETS -->
+        <section id="projets" class="projects">
+            <h2 class="section-title">Mes Projets</h2>
+            <p class="section-subtitle">Découvrez mes réalisations les plus récentes</p>
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <div class="project-image project-image-1"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Site E-commerce</h3>
+                        <p class="project-description">Plateforme de vente en ligne avec panier, paiement sécurisé et gestion d'inventaire en temps réel.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <div class="project-image project-image-2"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application de Productivité</h3>
+                        <p class="project-description">Outil de gestion de tâches collaboratif avec synchronisation en temps réel et notifications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <div class="project-image project-image-3"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Agence Créative</h3>
+                        <p class="project-description">Site portfolio innovant avec animations fluides et galerie interactive pour studio créatif.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">GSAP</span>
+                            <span class="tech-tag">Photoshop</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 4 -->
+                <div class="project-card">
+                    <div class="project-image project-image-4"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Plateforme SaaS</h3>
+                        <p class="project-description">Solution cloud pour gestion d'équipe avec analytics avancées et rapports automatisés.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 5 -->
+                <div class="project-card">
+                    <div class="project-image project-image-5"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Technologique</h3>
+                        <p class="project-description">Plateforme de blogging avec moteur de recherche, catégories et système de commentaires.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 6 -->
+                <div class="project-card">
+                    <div class="project-image project-image-6"></div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-view-btn">Voir plus</a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application Mobile Web</h3>
+                        <p class="project-description">Application hybride responsive pour iOS et Android avec progressive web app features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">PWA</span>
+                            <span class="tech-tag">Service Workers</span>
+                        </div>
+                        <a href="#" class="project-link">Lire le cas d'étude →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION CONTACT -->
+        <section id="contact" class="contact">
+            <div class="contact-wrapper">
+                <h2 class="section-title">Travaillons Ensemble</h2>
+                <p class="section-subtitle">Vous avez un projet ? Parlons-en !</p>
+                
+                <div class="contact-container">
+                    <!-- Informations de contact -->
+                    <div class="contact-info">
+                        <h3>Contactez-moi</h3>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:contact@example.com">contact@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <p class="contact-label">Téléphone</p>
+                                <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <p class="contact-label">Localisation</p>
+                                <p>Paris, France</p>
+                            </div>
+                        </div>
+
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="LinkedIn">in</a>
+                            <a href="#" class="social-icon" title="GitHub">⚙</a>
+                            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+                            <a href="#" class="social-icon" title="Instagram">📷</a>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire de contact -->
+                    <form class="contact-form">
+                        <!-- Champ nom -->
+                        <div class="form-group">
+                            <label for="nom" class="form-label">Votre Nom</label>
+                            <input type="text" id="nom" class="form-input" placeholder="Jean Dupont" required>
+                        </div>
+
+                        <!-- Champ email -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">Votre Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="vous@example.com" required>
+                        </div>
+
+                        <!-- Champ sujet -->
+                        <div class="form-group">
+                            <label for="sujet" class="form-label">Sujet</label>
+                            <input type="text" id="sujet" class="form-input" placeholder="Sujet de votre message" required>
+                        </div>
+
+                        <!-- Champ message -->
+                        <div class="form-group">
+                            <label for="message" class="form-label">Votre Message</label>
+                            <textarea id="message" class="form-textarea" rows="6" placeholder="Décrivez votre projet..." required></textarea>
+                        </div>
+
+                        <!-- Bouton d'envoi -->
+                        <button type="submit" class="submit-button">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>À Propos</h4>
+                    <p>Développeur web passionné créant des solutions numériques innovantes et performantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="footer-social">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-text">&copy; 2026 Mon Portefeuille. Tous droits réservés. | Conçu avec ❤️</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
